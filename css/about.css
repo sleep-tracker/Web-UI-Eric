@@ -1,8 +1,11 @@
 .main-about-container {
-  background-image: radial-gradient(circle, #8996e7, #9296e4, #9b96e1, #a296dd, #a996da, #a68fd1, #a387c7, #9f80be, #9270ac, #845f9a, #775089, #6a4078);
+  background-image: radial-gradient(circle, #8996e7, #9b96e1, #a996da, #a68fd1, #a387c7, #9f80be, #9270ac, #845f9a, #6a4078);
 }
 .main-about-container h1 {
   color: white;
+}
+.main-about-container h2 {
+  color: #000;
 }
 .card-container {
   display: flex;
@@ -17,6 +20,10 @@
 }
 .card .title {
   color: grey;
+}
+img#brad {
+  height: 298px;
+  width: 300px;
 }
 button {
   border: none;

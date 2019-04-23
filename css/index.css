@@ -19,15 +19,15 @@
   color: white;
   height: 100vh;
 }
+.jumbotron .row {
+  padding: 10% 0;
+}
 .jumbotron .btn-lg {
   padding: 0.75rem 1.25rem;
   font-weight: 700;
 }
 .container {
-  position: relative;
-}
-.container {
-  max-width: 960px;
+  max-width: 100%;
 }
 .flex-equal > * {
   -ms-flex: 1;
