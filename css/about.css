@@ -1,10 +1,11 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
   max-width: 300px;
   margin: 2.5em auto 2.5em auto;
   text-align: center;
 }
-.title {
+.card .title {
   color: grey;
 }
 button {
@@ -19,11 +20,14 @@ button {
   width: 100%;
   font-size: 18px;
 }
+button:hover {
+  opacity: 0.7;
+}
 a {
   text-decoration: none;
   color: black;
 }
-button:hover,
 a:hover {
   opacity: 0.7;
+  text-decoration: none;
 }
