@@ -1,5 +1,6 @@
 .site-header {
   background-color: #312450;
+  backdrop-filter: saturate(180%) blur(20px);
   opacity: 0.7;
 }
 .site-header a {
@@ -10,15 +11,20 @@
   color: #fff;
   text-decoration: none;
 }
-.cover {
+.nav-container {
+  width: 80%;
+}
+.jumbotron {
   background-image: url('/images/sleeping-person.jpg');
   color: white;
   height: 100vh;
-  padding: 0 1.5rem;
 }
-.cover .btn-lg {
+.jumbotron .btn-lg {
   padding: 0.75rem 1.25rem;
   font-weight: 700;
+}
+.container {
+  position: relative;
 }
 .container {
   max-width: 960px;
@@ -34,4 +40,18 @@
 }
 .overflow-hidden {
   overflow: hidden;
+}
+footer {
+  background-color: #312450;
+  backdrop-filter: saturate(180%) blur(20px);
+  opacity: 0.6;
+  width: 100%;
+}
+footer .text-muted {
+  color: #999;
+  transition: ease-in-out color 0.15s;
+}
+footer .text-muted:hover {
+  color: #fff;
+  text-decoration: none;
 }
