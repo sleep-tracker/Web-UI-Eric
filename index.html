@@ -14,24 +14,37 @@
   </head>
   <body>
     <!-- Start Navigation -->
-    <nav class="site-header sticky-top py-1">
-  <div class="nav-container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#">
-    </a>
-    <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
-    <a class="py-2 d-none d-md-inline-block" href="about.html">About Us</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-  </div>
-</nav>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Rest Well Sleep Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-info my-2 my-sm-0" type="submit">Sign Up/ Sign In</button>
+          </form>
+        </div>
+      </nav>
 <!-- End Navigation -->
 <!-- Start Jumbotron -->
 <div class="pb-5 jumbotron">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-10 col-lg-6">
+            <div class="main-text w-100 text-center">
               <h1><strong>Tired</strong> of Being <strong>Tired?</strong></h1>
-              <p class="lead mb-4 text-white text-justify"><strong>You're not alone. </strong>Find your optimal sleep pattern today!</p>
+              <p class="lead mb-4 text-white"><strong>You're not alone. </strong>Find your optimal sleep pattern today!</p>
               <button class="btn btn-info btn-lg">Learn More</button>
             </div>
           </div>
@@ -44,26 +57,47 @@
   <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-center text-white overflow-hidden">
     <div class="my-3 py-3">
       <h2 class="display-5">What We Do</h2>
-      <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well.</p>
+      <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well. We build the technology that analyzes the sleep patterns that you enter, along with how you feel that day.</p>
     </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    <img class="img img-fluid" src="images/dual-monitors.jpg" alt="Work Station">
   </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-            <h2 class="display-5">How We Help</h2>
-            <p class="lead">How can keeping track of your sleeping patterns help you get more rest?</p>
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
+    <div class="my-3 p-5">
+            <h2 class="display-5 text-center">How We Can Help</h2>
+            <p class="lead text-center">How can keeping track of your sleeping patterns help you get more rest?</p>
+            <div class="help-container d-flex">
+              <div class="help-box d-flex">
+                <figure>
+              <img class="img img-fluid" src="images/understand.png">
+            </figure>
+            <h3>Understand Your Sleep</h3>
+            <p class="lead">You can understand your sleep patterns and habits. We’re often very surprised at the difference between how we think we sleep and how we’re really sleeping.</p>
+              </div>
+              <div class="help-box d-flex">
+            <figure>
+            <img class="img img-fluid" src="images/action.png">
+            </figure>
+            <h3>Take Action</h3>
+            <p class="lead">You can start taking action. Tracking your sleep shows you what you need to change. It can also show you if sleep aids like Melatonin are working for you over the long term.</p>
+              </div>
+              <div class="help-box d-flex">
+            <figure>
+            <img class="img img-fluid" src="images/doctor.png">
+            </figure>
+            <h3>Help Your Doctor</h3>
+            <p class="lead">If you decide to consult a doctor, your doctor can use your diary to find the right solution to help you sleep.</p>
+          </div>
+        </div>
     </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
 </div>
-
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
+      <h2 class="display-5">Sleep Efficiency Reports</h2>
+      <p class="lead">A comprehensive report into your sleep patterns helps you understand when you should go to bed, when you should wake up, and when you sleep best.</p>
     </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+   <img class="report-img img-fluid" src="./images/sleep-data.png" alt="Example graph of sleep patterns">
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden">
     <div class="my-3 py-3">
@@ -71,16 +105,16 @@
       <p class="lead">Whether it's a question, concern, or a chat about how great sleep is, we promise to get back to you as soon as possible.</p>
     </div>
     <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Your message:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-info mb-5">Submit</button>
-          </form>
+        <div class="form-group" id="contact">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your message:</label>
+          <textarea class="form-control" rows="6"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info mb-4">Submit</button>
+    </form>
   </div>
 </div>
 
@@ -88,19 +122,19 @@
 <footer class="py-5">
   <div class="row">
     <div class="col-12 col-md">
-      <p class="text-white pl-5">Rest Well Sleep Tracker</p>
-      <small class="d-block mb-3 text-white-50 pl-5">&copy; 2017-2019</small>
+      <p class="text-white pl-4">Rest Well Sleep Tracker</p>
+      <small class="d-block mb-3 text-white-50 pl-4">&copy; 2017-2019</small>
     </div>
     <div class="col-6 col-md">
       <h5>Features</h5>
-      <ul class="list-unstyled text-small">
+      <ul class="list-unstyled text-small pl-4">
         <li><a class="text-white" href="#">Cool stuff</a></li>
         <li><a class="text-white" href="#">Random feature</a></li>
         <li><a class="text-white" href="#">Team feature</a></li>
         <li><a class="text-white" href="#">Stuff for developers</a></li>
       </ul>
     </div>
-    <div class="col-6 col-md">
+    <div class="col-6 col-md pl-4">
       <h5>Resources</h5>
       <ul class="list-unstyled text-small">
         <li><a class="text-white" href="#">Resource</a></li>
@@ -112,7 +146,7 @@
     <div class="col-6 col-md">
     <div class="col-6 col-md">
       <h5>About</h5>
-      <ul class="list-unstyled text-small">
+      <ul class="list-unstyled text-small pl-2">
         <li><a class="text-white" href="#">Team</a></li>
         <li><a class="text-white" href="#">Locations</a></li>
         <li><a class="text-white" href="#">Privacy</a></li>
