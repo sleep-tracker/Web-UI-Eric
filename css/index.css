@@ -30,7 +30,11 @@
 .overflow-hidden {
   overflow: hidden;
 }
-.helpbox.img {
+.help-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+figure {
   justify-content: space-around;
 }
 .report-img {
