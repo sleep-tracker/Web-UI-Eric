@@ -9,7 +9,6 @@
     <title>Sleep Tracker</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/product/">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="./css/index.css" rel="stylesheet">
   </head>
@@ -27,12 +26,12 @@
 </nav>
 <!-- End Navigation -->
 <!-- Start Jumbotron -->
-<div class="block-xs-middle pb-5 jumbotron">
+<div class="pb-5 jumbotron">
         <div class="container">
-          <div class="row text-center">
+          <div class="row">
             <div class="col-sm-10 col-lg-6">
-              <h1 class="block-titleData frequency">Tired of Being Tired?</h1>
-              <p class="lead mb-4 text-white">You're not alone. Find your optimal sleep pattern today!</p>
+              <h1><strong>Tired</strong> of Being <strong>Tired?</strong></h1>
+              <p class="lead mb-4 text-white text-justify"><strong>You're not alone. </strong>Find your optimal sleep pattern today!</p>
               <button class="btn btn-info btn-lg">Learn More</button>
             </div>
           </div>
@@ -41,8 +40,8 @@
     </div>
 <!-- End Jumbotron -->
 <!-- Start Main Content -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+<div class="w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-center text-white overflow-hidden">
     <div class="my-3 py-3">
       <h2 class="display-5">What We Do</h2>
       <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well.</p>
@@ -51,8 +50,8 @@
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
+            <h2 class="display-5">How We Help</h2>
+            <p class="lead">How can keeping track of your sleeping patterns help you get more rest?</p>
     </div>
     <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
@@ -66,12 +65,22 @@
     </div>
     <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
   </div>
-  <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden">
     <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
+      <h2 class="display-5">Contact Us</h2>
+      <p class="lead">Whether it's a question, concern, or a chat about how great sleep is, we promise to get back to you as soon as possible.</p>
     </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your message:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info mb-5">Submit</button>
+          </form>
   </div>
 </div>
 
