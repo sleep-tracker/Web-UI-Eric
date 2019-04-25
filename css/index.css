@@ -1,6 +1,10 @@
 .navbar {
   background-color: #837C96;
 }
+.navbar .nav-img {
+  border-radius: 5px;
+  border: 5px solid #888;
+}
 .jumbotron {
   background-image: url('/images/sleeping-person.jpg');
   background-size: cover;
@@ -29,13 +33,6 @@
 }
 .overflow-hidden {
   overflow: hidden;
-}
-.help-box {
-  display: flex;
-  flex-wrap: wrap;
-}
-figure {
-  justify-content: space-around;
 }
 .report-img {
   border-radius: 15px;
