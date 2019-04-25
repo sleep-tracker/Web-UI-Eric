@@ -7,10 +7,10 @@
     <meta name="keywords" content="sleep, tracker, rest, track">
     <meta name="author" content="Eric Nunn">
     <title>Rest Well Sleep Tracker</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/product/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cute+Font|Raleway" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="images/deepsleepicon.ico" rel="shortcut icon" type="image/png">
   </head>
   <body>
@@ -45,7 +45,7 @@
           <div class="row">
             <div class="main-text w-100 text-center">
               <h1 class="question"><strong>Tired</strong> of Being <strong>Tired?</strong></h1>
-              <p class="tagline lead pb-4 text-white"><strong>You're not alone. </strong>Find your optimal sleep pattern today!</p>
+              <p class="tagline lead pb-4 text-white"><strong>You are not alone. </strong>Find your optimal sleep pattern today!</p>
               <button class="btn btn-info btn-lg">Learn More</button>
             </div>
           </div>
@@ -58,7 +58,7 @@
   <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-center text-white overflow-hidden">
     <div class="my-3 py-3">
       <h2 class="display-5">What We Do</h2>
-      <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well. We build the technology that analyzes the sleep patterns that you enter, along with how you feel that day to recommend a personalized sleep schedule.</p>
+      <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well Sleep Tracker. We build the technology that analyzes the sleep patterns that you enter, along with how you feel that day to recommend a personalized sleep schedule.</p>
     </div>
     <img class="img img-fluid" src="images/dual-monitors.jpg" alt="Work Station">
   </div>
@@ -68,19 +68,19 @@
             <p class="lead text-center">How can keeping track of your sleeping patterns help you get more rest?</p>
             <div class="help-container">
               <div class="help-box">
-              <img src="images/understand.png" alt="Person with Idea">
+              <img class="pl-4" src="images/understand.png" alt="Person with Idea">
             <h3>Understand Your Sleep</h3>
             <p class="lead">You can understand your sleep patterns and habits. We’re often very surprised at the difference between how we think we sleep and how we’re really sleeping.</p>
               </div>
               <div class="help-box">
-            <img src="images/action.png" alt="Take Action MegaPhone">
+            <img class="pl-4" src="images/action.png" alt="Take Action MegaPhone">
             <h3>Take Action</h3>
-            <p class="lead">You can start taking action. Tracking your sleep shows you what you need to change. It can also show you if sleep aids like Melatonin are working for you over the long term.</p>
+            <p class="lead pr-3">You can start taking action. Tracking your sleep shows you what you need to change. It can also show you if over-the-counter sleep aids are working for you over the long term.</p>
               </div>
               <div class="help-box">
-            <img src="images/doctor.png" alt="Doctor ClipArt">
+            <img class="pl-4" src="images/doctor.png" alt="Doctor ClipArt">
             <h3>Help Your Doctor</h3>
-            <p class="lead">If you decide to consult a doctor, your doctor can use your diary to find the right solution to help you sleep.</p>
+            <p class="lead">If you decide to consult a doctor, your doctor can use your sleep tracker to find the right solution to help you sleep.</p>
           </div>
         </div>
     </div>
@@ -151,7 +151,11 @@
     </div>
   </div>
 </footer>
-      <script src="js/menu.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+       AOS.init();
+      </script>
+      <script src="js/dropdown.js"></script>
       <script src="js/main.js"></script>
     </body>
 </html>
