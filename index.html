@@ -6,34 +6,34 @@
     <meta name="description" content="A Sleep Tracker ">
     <meta name="keywords" content="sleep, tracker, rest, track">
     <meta name="author" content="Eric Nunn">
-    <title>Sleep Tracker</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/product/">
+    <title>Rest Well Sleep Tracker</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Raleway" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="images/deepsleepicon.ico" rel="shortcut icon" type="image/png">
   </head>
   <body>
     <!-- Start Navigation -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Rest Well Sleep Tracker</a>
+        <a class="navbar-brand" href="#"><img class="nav-img ml-2" src="images/rest-logo.PNG" alt="Marketing Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-info my-2 my-sm-0" type="submit">Sign Up/ Sign In</button>
+            <button class="btn btn-info ml-2" type="submit">Sign Up/ Sign In</button>
           </form>
         </div>
       </nav>
@@ -43,9 +43,9 @@
         <div class="container-fluid">
           <div class="row">
             <div class="main-text w-100 text-center">
-              <h1><strong>Tired</strong> of Being <strong>Tired?</strong></h1>
-              <p class="lead mb-4 text-white"><strong>You're not alone. </strong>Find your optimal sleep pattern today!</p>
-              <button class="btn btn-info btn-lg">Learn More</button>
+              <h1 class="question"><strong>Tired</strong> of Being <strong>Tired?</strong></h1>
+              <p class="tagline lead pb-4 text-white"><strong>You are not alone. </strong>Find your optimal sleep pattern today!</p>
+              <a href="https://5cc1ef044fb4f343b07ba0d6--vigorous-yalow-45b1cc.netlify.com/" target="_blank"><button class="btn btn-info btn-lg">Learn More</button></a>
             </div>
           </div>
         </div>
@@ -54,52 +54,46 @@
 <!-- End Jumbotron -->
 <!-- Start Main Content -->
 <div class="w-100 my-md-3 pl-md-3">
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-center text-white overflow-hidden">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 w-100 text-center text-white overflow-hidden" data-aos="flip-down" data-aos-duration="2000">
     <div class="my-3 py-3">
       <h2 class="display-5">What We Do</h2>
-      <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well. We build the technology that analyzes the sleep patterns that you enter, along with how you feel that day.</p>
+      <p class="lead">Not everyone needs 8 hours of sleep, but how do you know if you’re someone lucky enough to need only 6? Or an unlucky one that needs 10?! Enter Rest Well Sleep Tracker. We build the technology that analyzes the sleep patterns that you enter, along with how you feel that day to recommend a personalized sleep schedule.</p>
     </div>
     <img class="img img-fluid" src="images/dual-monitors.jpg" alt="Work Station">
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
     <div class="my-3 p-5">
-            <h2 class="display-5 text-center">How We Can Help</h2>
-            <p class="lead text-center">How can keeping track of your sleeping patterns help you get more rest?</p>
-            <div class="help-container d-flex">
-              <div class="help-box d-flex">
-                <figure>
-              <img class="img img-fluid" src="images/understand.png">
-            </figure>
+            <h2 class="display-5 text-center" data-aos="fade-left" data-aos-duration="2000">How We Can Help</h2>
+            <p class="lead text-center" data-aos="fade-right" data-aos-duration="2000">How can keeping track of your sleeping patterns help you get more rest?</p>
+            <div class="help-container">
+              <div class="help-box" data-aos="flip-down" data-aos-duration="2000">
+              <img src="images/understand.png" alt="Person with Idea">
             <h3>Understand Your Sleep</h3>
             <p class="lead">You can understand your sleep patterns and habits. We’re often very surprised at the difference between how we think we sleep and how we’re really sleeping.</p>
               </div>
-              <div class="help-box d-flex">
-            <figure>
-            <img class="img img-fluid" src="images/action.png">
-            </figure>
+              <div class="help-box" data-aos="flip-down" data-aos-duration="2000">
+            <img src="images/action.png" alt="Take Action MegaPhone">
             <h3>Take Action</h3>
-            <p class="lead">You can start taking action. Tracking your sleep shows you what you need to change. It can also show you if sleep aids like Melatonin are working for you over the long term.</p>
+            <p class="lead pr-3">You can start taking action. Tracking your sleep shows you what you need to change. It can also show you if over-the-counter sleep aids are working for you over the long term.</p>
               </div>
-              <div class="help-box d-flex">
-            <figure>
-            <img class="img img-fluid" src="images/doctor.png">
-            </figure>
+              <div class="help-box" data-aos="flip-down" data-aos-duration="2000">
+            <img src="images/doctor.png" alt="Doctor ClipArt">
             <h3>Help Your Doctor</h3>
-            <p class="lead">If you decide to consult a doctor, your doctor can use your diary to find the right solution to help you sleep.</p>
+            <p class="lead">If you decide to consult a doctor, your doctor can use your sleep tracker to find the right solution to help you sleep.</p>
           </div>
         </div>
     </div>
   </div>
 </div>
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" data-aos="fade-up-right" data-aos-duration="2000">
     <div class="my-3 p-3">
       <h2 class="display-5">Sleep Efficiency Reports</h2>
       <p class="lead">A comprehensive report into your sleep patterns helps you understand when you should go to bed, when you should wake up, and when you sleep best.</p>
     </div>
    <img class="report-img img-fluid" src="./images/sleep-data.png" alt="Example graph of sleep patterns">
   </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden" data-aos="fade-up-left" data-aos-duration="2000">
     <div class="my-3 py-3">
       <h2 class="display-5">Contact Us</h2>
       <p class="lead">Whether it's a question, concern, or a chat about how great sleep is, we promise to get back to you as soon as possible.</p>
@@ -117,13 +111,13 @@
     </form>
   </div>
 </div>
-
 <!-- Start Footer -->
 <footer class="py-5">
   <div class="row">
     <div class="col-12 col-md">
+        <a class="pl-3" href="index.html"><img class="mb-3" src="images/rest-logo.PNG" alt="Marketing Logo"></a>
       <p class="text-white pl-4">Rest Well Sleep Tracker</p>
-      <small class="d-block mb-3 text-white-50 pl-4">&copy; 2017-2019</small>
+      <small class="d-block mb-3 text-white-50 pl-4">&copy; 2019</small>
     </div>
     <div class="col-6 col-md">
       <h5>Features</h5>
@@ -155,7 +149,13 @@
     </div>
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+       AOS.init();
+      </script>
+      <script src="js/main.js"></script>
     </body>
 </html>

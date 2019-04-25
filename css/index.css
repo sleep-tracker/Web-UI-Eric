@@ -1,6 +1,14 @@
 .navbar {
   background-color: #837C96;
 }
+.navbar .nav-item {
+  font-size: 1.15rem;
+  padding: 0 2.5em 0 2.5em;
+}
+.navbar .nav-img {
+  border-radius: 5px;
+  border: 2.5px outset #999;
+}
 .jumbotron {
   background-image: url('/images/sleeping-person.jpg');
   background-size: cover;
@@ -9,17 +17,25 @@
   width: 100%;
 }
 .jumbotron .main-text {
-  margin-top: 50vh;
+  margin-top: 30vh;
+}
+@media only screen and (max-width: 820px) {
+  .jumbotron .main-text {
+    margin-top: 10vh;
+  }
+}
+.jumbotron .main-text .question {
+  font-family: 'Cute Font', cursive;
+  font-size: 7.5em;
+}
+.jumbotron .main-text .tagline {
+  font-size: 2rem;
 }
 .jumbotron .btn-lg {
   padding: 0.75rem 1.25rem;
   font-weight: 700;
 }
-.container {
-  max-width: 80%;
-}
 .flex-equal > * {
-  -ms-flex: 1;
   flex: 1;
 }
 @media (min-width: 768px) {
@@ -30,12 +46,14 @@
 .overflow-hidden {
   overflow: hidden;
 }
-.help-box {
+.help-container {
   display: flex;
-  flex-wrap: wrap;
 }
-figure {
-  justify-content: space-around;
+@media only screen and (max-width: 950px) {
+  .help-container {
+    display: block;
+    text-align: center;
+  }
 }
 .report-img {
   border-radius: 15px;

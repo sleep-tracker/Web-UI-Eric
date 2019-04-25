@@ -1,9 +1,4 @@
-.container {
-    max-width: 80%;
-  }
-
   .flex-equal > * {
-    -ms-flex: 1;
     flex: 1;
   }
   @media (min-width: 768px) {
@@ -16,13 +11,13 @@
     overflow: hidden; 
   }
 
-.help-box {
+.help-container {
   display: flex;
-  flex-wrap: wrap;
-}
 
-figure {
-  justify-content: space-around;
+  @media only screen and (max-width: 950px) {
+    display: block;
+    text-align: center;
+  } 
 }
 
   .report-img {
