@@ -41,7 +41,7 @@
 .help-container {
   display: flex;
 }
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 890px) {
   .help-container {
     display: block;
     text-align: center;
