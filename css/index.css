@@ -64,6 +64,10 @@ footer {
   opacity: 0.6;
   width: 100%;
 }
+footer h5 {
+  color: white;
+  text-decoration: ;
+}
 footer a {
   text-decoration: none;
   color: black;
