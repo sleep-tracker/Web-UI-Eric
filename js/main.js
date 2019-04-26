@@ -1,10 +1,10 @@
-// const navItems = document.querySelector('.nav-item .nav-link');
+// const jumboTron = document.querySelector('.jumbotron');
 
-// navItems.addEventListener('mouseover', (event) => {
-//     event.target.style.transition = 'transform .3s';
+// jumboTron.addEventListener('load', (e) => {
+//     e.target.style.transition = 'transform .3s';
 //     event.target.style.transform = 'scale(1.15)';
 // });
-// navItems.addEventListener('mouseout', (event) => {
-//     event.target.style.transition = 'transform .3s';
-//     event.target.style.transform = 'scale(1.0)';
+// jumboTron.addEventListener('unload', (e) => {
+//     e.target.style.transition = 'transform .3s';
+//     e.target.style.transform = 'scale(1.0)';
 // });
