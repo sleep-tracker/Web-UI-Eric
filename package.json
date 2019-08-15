@@ -1,0 +1,27 @@
+{
+  "name": "web-ui-eric",
+  "version": "1.0.0",
+  "description": "Marketing Page for RestWell Sleep-Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleep-tracker/Web-UI-Eric.git"
+  },
+  "keywords": [
+    "rest",
+    "sleep",
+    "UI",
+    "eric",
+    "nunn",
+    "tracker"
+  ],
+  "author": "Eric Nunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sleep-tracker/Web-UI-Eric/issues"
+  },
+  "homepage": "https://github.com/sleep-tracker/Web-UI-Eric#readme"
+}
